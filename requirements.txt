@@ -10,14 +10,16 @@ importlib-metadata==1.6.0  # via pluggy, pytest
 kiwisolver==1.2.0         # via matplotlib
 matplotlib==3.2.1         # via -r requirements.in
 more-itertools==8.2.0     # via pytest
-numpy==1.18.2             # via -r requirements.in, matplotlib
+numpy==1.18.2             # via -r requirements.in, matplotlib, torchvision
 packaging==20.3           # via pytest
+pillow==7.1.1             # via torchvision
 pluggy==0.13.1            # via pytest
 py==1.8.1                 # via pytest
 pyparsing==2.4.6          # via matplotlib, packaging
 pytest==5.4.1             # via -r requirements.in
 python-dateutil==2.8.1    # via matplotlib
-six==1.14.0               # via cycler, packaging, python-dateutil
-torch==1.4.0              # via -r requirements.in
+six==1.14.0               # via cycler, packaging, python-dateutil, torchvision
+torch==1.4.0              # via -r requirements.in, torchvision
+torchvision==0.5.0        # via -r requirements.in
 wcwidth==0.1.9            # via pytest
 zipp==3.1.0               # via importlib-metadata

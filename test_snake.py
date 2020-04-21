@@ -7,7 +7,7 @@ from .snake import Snake
 @pytest.fixture
 def unSnake():
     #position (2,6)
-    snake=Snake(1540)
+    snake=Snake()
     return snake
 
 
